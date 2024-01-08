@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4; /* Optional: Set a background color for the body */
+  }
+  
+  #dashboardContainer {
+    background-color: #ffffff; /* Set a background color for the dashboard */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    padding: 20px;
+  }
+  
+  #stateDropdown {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  #dataContainer {
+    margin-top: 20px;
+  }
+  
+  #dataContainer p {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  #dataContainer p strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  select {
+    appearance: none;
+    background: url('https://cdn.jsdelivr.net/npm/simple-icons@3.11.2/icons/svg/globe.svg') no-repeat right center;
+    background-size: 20px;
+    padding-right: 30px;
+  }
+  
